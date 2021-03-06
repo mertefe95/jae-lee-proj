@@ -1,0 +1,488 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,800&display=swap");
+@import url("db.onlinewebfonts.com/c/0cb7c7b91bfb261102957a90622d9534?family=Neue+Haas+Unica");
+
+@font-face {
+  font-family: "Neue Haas Unica";
+  src: url("//db.onlinewebfonts.com/t/0cb7c7b91bfb261102957a90622d9534.eot");
+  src: url("//db.onlinewebfonts.com/t/0cb7c7b91bfb261102957a90622d9534.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/0cb7c7b91bfb261102957a90622d9534.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/0cb7c7b91bfb261102957a90622d9534.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/0cb7c7b91bfb261102957a90622d9534.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/0cb7c7b91bfb261102957a90622d9534.svg#Neue Haas Unica")
+      format("svg");
+}
+
+@font-face {
+  font-family: "VAGRoundedStd-Black";
+  src: url("./public/VAGRoundedStd-Black.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Solidar Sans";
+  src: url("./public/SolidarSans.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Metropolis-Thin";
+  src: url("./public/Metropolis-Thin.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Metropolis-Regular";
+  src: url("./public/Metropolis-Regular.otf") format("opentype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+.nav {
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f4f6f3;
+  padding: 0 60px;
+}
+
+.logo-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-div img {
+  height: 50%;
+}
+
+.nav-ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+
+.nav-ul li {
+  padding: 0 10px;
+  letter-spacing: 1.7px;
+}
+
+.nav-logo-title {
+  font-weight: bolder;
+  font-family: "VAGRoundedStd-Black";
+  letter-spacing: 1.6px;
+}
+
+.contact-li {
+  border: 2px solid black;
+  padding: 5px 20px !important;
+  margin-left: 20px;
+}
+
+.active-nav-link {
+  color: rgb(198, 6, 6);
+}
+
+.first-group-text {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.first-group-p {
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.first-group-bigtitle {
+  font-size: 4rem;
+  font-family: "Neue Haas Unica";
+}
+.second-group-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f6f3;
+  height: 120vh;
+  min-height: 100vh;
+  flex-wrap: nowrap;
+}
+
+.slide {
+  background-color: white;
+  margin: 50px 30px;
+  width: 40%;
+  min-width: 300px;
+}
+
+.slide img {
+  height: 60%;
+  width: 100%;
+}
+
+.slide-lower-title {
+  letter-spacing: 2px;
+  font-family: "Roboto";
+}
+
+.slick-dots {
+  background-color: #f4f6f3;
+  margin-bottom: 550px;
+  bottom: 40px !important;
+}
+
+.play-icon {
+  border-radius: 50%;
+  height: 22px !important;
+  width: 22px !important;
+  border: 2px solid black;
+  padding: 4px 4.5px 4px 5.5px;
+}
+
+.slide-lower-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  height: 30vh;
+}
+
+.slide-lower-div li {
+  padding: 20px 110px;
+  text-align: center;
+}
+
+.learn-more {
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  padding: 6px 20px;
+  text-align: center;
+}
+
+.only-img-div img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.first-group-image-div img {
+  width: 100%;
+}
+
+.featured-release-div {
+  height: 100vh;
+  padding: 0 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 200px;
+}
+
+.featured-release-text-div {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 100%;
+  font-size: 1rem;
+  margin-left: 220px;
+}
+
+.featured-release-title {
+  font-family: "VAGRoundedStd-Black";
+  letter-spacing: 1.8px;
+  font-size: 1.1rem;
+}
+
+.featured-release-img-div img {
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.featured-release-bigtitle {
+  font-family: "Neue Haas Unica";
+  font-size: 2.4rem;
+  letter-spacing: 2px;
+  margin-bottom: 0px;
+  font-weight: bolder;
+  padding: 15px 0 20px 0;
+}
+
+.featured-release-logo-div img {
+  position: relative;
+  left: -22px;
+}
+.featured-release-logo-div {
+  padding-bottom: 20px;
+}
+
+.featured-release-text {
+  font-family: "Roboto";
+  font-size: 1rem;
+  line-height: 30px;
+  letter-spacing: 1.4px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.slick-dotted.slick-slider {
+  margin-bottom: 0px;
+}
+
+.fa-bars {
+  display: none;
+}
+
+.times-active {
+  display: block;
+}
+
+.bars-active {
+  display: none;
+}
+
+.delete-icon {
+  display: none;
+}
+
+.active-delete-icon {
+  display: block !important;
+}
+
+.deactivated-button {
+  display: none;
+}
+
+.burger-icon {
+  display: none;
+}
+
+.icon-button {
+  display: none;
+  text-align: center;
+  border: none;
+  background: transparent;
+}
+
+.bar-icon {
+  position: relative;
+  top: 0px;
+}
+
+.nav-ul-active {
+  visibility: visible;
+}
+
+.footer {
+  background-color: #171b1e;
+  font-family: "VAGRoundedStd-Black" !important;
+  color: white;
+  font-size: 0.8rem;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  letter-spacing: 1.8px;
+}
+
+.footer-upper-ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  border-bottom: 4px solid rgb(91, 89, 89);
+}
+
+.footer-lower-ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.footer-upper-logo-li {
+  margin-right: 100px;
+}
+
+.footer-upper-ul li {
+  padding: 0 35px;
+}
+
+.footer-lower-ul li {
+  padding: 0 5px;
+}
+
+.footer-upper-button-li {
+  color: black;
+  font-weight: bold;
+  margin-left: 150px;
+}
+
+.footer-upper-button-li button {
+  color: black;
+  font-weight: bold;
+  background: transparent;
+  border: none;
+  letter-spacing: 1.8px;
+  font-size: 0.85rem;
+}
+
+.footer-home-li {
+  margin-left: 250px;
+}
+
+@media (max-width: 1000px) {
+  .featured-release-div {
+    margin: 0 !important;
+    padding: 5px 15px !important;
+    min-height: 70vh !important;
+    position: relative;
+    top: 200px;
+  }
+}
+
+@media (max-width: 700px) {
+  .slide-lower-div li {
+    padding: 20px 60px;
+  }
+}
+
+@media (max-width: 320px) {
+  .featured-release-text {
+    line-height: 24px !important;
+    letter-spacing: 1.3px !important;
+  }
+}
+
+@media (max-width: 700px) {
+  .third-group-div {
+    flex-direction: column;
+  }
+
+  .featured-release-logo-div {
+    padding-bottom: 0px !important;
+  }
+
+  .featured-release-bigtitle {
+    font-size: 1.9rem !important;
+    padding: 0 !important;
+  }
+
+  .featured-release-title {
+    font-size: 0.9rem !important;
+  }
+
+  .featured-release-text-div {
+    margin-left: 0px !important;
+    padding: 0 20px !important;
+    min-height: 140vh !important;
+  }
+
+  .featured-release-text {
+    line-height: 24px !important;
+    letter-spacing: 1.3px !important;
+  }
+
+  .second-group-div {
+    margin-bottom: 120px !important;
+  }
+
+  .slide {
+    padding-bottom: 100px !important;
+  }
+  .featured-release-img-div {
+    min-width: 100px !important;
+  }
+
+  .bar-icon {
+    display: block !important;
+    position: relative;
+    right: 0px;
+    top: 40px;
+  }
+
+  .nav-ul {
+    visibility: hidden;
+    display: block;
+    text-align: left !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .active-li {
+    display: none !important;
+  }
+
+  .active-contact {
+    margin-left: 10px !important;
+    padding: 2px 6px !important;
+  }
+
+  .bars-active {
+    display: block !important;
+  }
+
+  .burger-icon {
+    display: block !important;
+    position: relative;
+    right: 120px;
+  }
+
+  .first-group-bigtitle {
+    font-size: 2.5rem;
+  }
+
+  .footer-upper-logo-li {
+    margin-top: 150px;
+    margin-left: 90px;
+  }
+  .slash-li {
+    display: none;
+  }
+
+  .footer-upper-ul {
+    flex-direction: column;
+  }
+
+  .footer li {
+    padding: 1px 0;
+  }
+
+  .footer {
+    padding-bottom: 100px;
+  }
+
+  .footer-upper-ul {
+    border-bottom: none !important;
+  }
+
+  .footer-lower-ul {
+    margin-top: 5px;
+    flex-direction: column;
+  }
+
+  .footer {
+    overflow: hidden;
+  }
+
+  .footer-home-li {
+    margin-left: 0 !important;
+  }
+}
