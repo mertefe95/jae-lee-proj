@@ -5,7 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link href="//db.onlinewebfonts.com/c/0cb7c7b91bfb261102957a90622d9534?family=Neue+Haas+Unica" rel="stylesheet" type="text/css"/>
-  <link href="index.css" rel="stylesheet" />
+  <link href="index.css" type="text/css" rel="stylesheet" />
+  <link href="responsive.css" type="text/css" rel="stylesheet" />
   <link rel="stylesheet" href="./slick-theme.css"/>
   <link rel="stylesheet" type="text/css" href="http://kenwheeler.github.io/slick/slick/slick-theme.css"/>
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
@@ -171,13 +172,30 @@
     autoplay:true,
     responsive: [
     {
-      breakpoint: 724,
+      breakpoint: 1026,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        
+      }
+    },
+    {
+      breakpoint: 770,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        
+      }
+    },
+    {
+      breakpoint: 500,
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
         
       }
-    }
+    },
+
   ]
   });
   
