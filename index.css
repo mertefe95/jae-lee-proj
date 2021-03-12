@@ -591,6 +591,10 @@
   .featured-release-img-div {
     margin-top: 25px;
   }
+
+  .footer-upper-button-li button {
+    color: white;
+  }
 }
 
 @media (max-width: 365px) {
@@ -607,6 +611,10 @@
   .icon-button {
     left: -20px;
     bottom: 43px;
+  }
+
+  .featured-release-img-div img {
+    padding-left: 0 !important;
   }
 
   .nav {
@@ -656,6 +664,7 @@
     bottom: 20px;
     left: 160px;
     font-size: 12px !important;
+    max-width: 20%;
   }
 
   .footer li {
@@ -663,9 +672,6 @@
     line-height: 16px;
   }
 
-  .footer-upper-button-li button {
-    color: white;
-  }
   .featured-release-div {
     padding: 0 !important;
   }
